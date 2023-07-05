@@ -19,7 +19,7 @@ export const appAtom = atom<AppAtomI>({
           "Learning culture is a strategic need that most learning   ",
         name: "Ms of A Learning Organization",
         isNew: true,
-        id: "2",
+        id: "1",
 
         drafts: [],
       },
@@ -29,7 +29,7 @@ export const appAtom = atom<AppAtomI>({
           "development is to improve their productivity in their role.",
         name: "Benefits Of Employee Learning",
         isNew: true,
-        id: "1",
+        id: "2",
         drafts: [],
       },
       {
@@ -38,7 +38,7 @@ export const appAtom = atom<AppAtomI>({
         description: "Creating an effective eLearning course...",
         name: "How To Develop An eLearning",
         isNew: true,
-        id: "2",
+        id: "3",
 
         drafts: [],
       },
@@ -48,7 +48,7 @@ export const appAtom = atom<AppAtomI>({
         description: "Millions of Americans are leaving their jobs..",
         name: "Leveraging DEI ",
         isNew: true,
-        id: "1",
+        id: "3",
         drafts: [],
       },
       {
@@ -57,7 +57,7 @@ export const appAtom = atom<AppAtomI>({
           "Millions of Americans are leaving their jobs in droves...",
         name: "Leveraging DEI a ",
         isNew: true,
-        id: "2",
+        id: "4",
 
         drafts: [],
       },
@@ -66,7 +66,7 @@ export const appAtom = atom<AppAtomI>({
         description: "Recent research showed that only 10% of companies...",
         name: "Effectively Gauging Competencies",
         isNew: true,
-        id: "1",
+        id: "6",
         drafts: [],
       },
     ],
