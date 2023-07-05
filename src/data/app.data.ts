@@ -1,4 +1,3 @@
-
 import { CourseInterface } from "../types";
 import { atom } from "recoil";
 import { recoilPersist } from "recoil-persist";
@@ -13,65 +12,63 @@ export const appAtom = atom<AppAtomI>({
   key: `data`,
   default: {
     courses: [
-
       {
-        
-        "thumbnail": "https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.jpg?s=2048x2048&w=is&k=20&c=t9_zg20wVbrBoGn0tw__1fFq4ykeKs15TQQ3x-ehVC0=",
-        "description": "klklk",
-        "name": "cource1",
-        "isNew": true,
-        "id": '2',
+        thumbnail:
+          "https://www.ncertbooks.guru/wp-content/uploads/2022/05/Course-details.png",
+        description:
+          "Learning culture is a strategic need that most learning   ",
+        name: "Ms of A Learning Organization",
+        isNew: true,
+        id: "2",
 
-        "drafts": []
-    },
-    {
-    
-      "thumbnail": "https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.jpg?s=2048x2048&w=is&k=20&c=t9_zg20wVbrBoGn0tw__1fFq4ykeKs15TQQ3x-ehVC0=",
-      "description": "klklk",
-      "name": "cource2",
-      "isNew": true,
-      "id": "1",
-      "drafts": []
-  },
-  {
-        
-    "thumbnail": "https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.jpg?s=2048x2048&w=is&k=20&c=t9_zg20wVbrBoGn0tw__1fFq4ykeKs15TQQ3x-ehVC0=",
-    "description": "klklk",
-    "name": "cource1",
-    "isNew": true,
-    "id": '2',
+        drafts: [],
+      },
+      {
+        thumbnail: "https://www.lumofy.com/wp-content/uploads/2022/07/8.png",
+        description:
+          "development is to improve their productivity in their role.",
+        name: "Benefits Of Employee Learning",
+        isNew: true,
+        id: "1",
+        drafts: [],
+      },
+      {
+        thumbnail:
+          "https://www.lumofy.com/wp-content/uploads/2022/08/Blogs-Cover-Template.png",
+        description: "Creating an effective eLearning course...",
+        name: "How To Develop An eLearning",
+        isNew: true,
+        id: "2",
 
-    "drafts": []
-},
-{
+        drafts: [],
+      },
+      {
+        thumbnail:
+          "https://www.lumofy.com/wp-content/uploads/2022/07/Webinar-Cover-Template.png",
+        description: "Millions of Americans are leaving their jobs..",
+        name: "Leveraging DEI ",
+        isNew: true,
+        id: "1",
+        drafts: [],
+      },
+      {
+        thumbnail: "https://www.lumofy.com/wp-content/uploads/2022/08/2-9.png",
+        description:
+          "Millions of Americans are leaving their jobs in droves...",
+        name: "Leveraging DEI a ",
+        isNew: true,
+        id: "2",
 
-  "thumbnail": "https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.jpg?s=2048x2048&w=is&k=20&c=t9_zg20wVbrBoGn0tw__1fFq4ykeKs15TQQ3x-ehVC0=",
-  "description": "klklk",
-  "name": "cource2",
-  "isNew": true,
-  "id": "1",
-  "drafts": []
-},
-{
-        
-  "thumbnail": "https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.jpg?s=2048x2048&w=is&k=20&c=t9_zg20wVbrBoGn0tw__1fFq4ykeKs15TQQ3x-ehVC0=",
-  "description": "klklk",
-  "name": "cource1",
-  "isNew": true,
-  "id": '2',
-
-  "drafts": []
-},
-{
-
-"thumbnail": "https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.jpg?s=2048x2048&w=is&k=20&c=t9_zg20wVbrBoGn0tw__1fFq4ykeKs15TQQ3x-ehVC0=",
-"description": "klklk",
-"name": "cource2",
-"isNew": true,
-"id": "1",
-"drafts": []
-}
-      
+        drafts: [],
+      },
+      {
+        thumbnail: "https://www.lumofy.com/wp-content/uploads/2022/08/3-9.png",
+        description: "Recent research showed that only 10% of companies...",
+        name: "Effectively Gauging Competencies",
+        isNew: true,
+        id: "1",
+        drafts: [],
+      },
     ],
   },
   effects_UNSTABLE: [persistAtom],
