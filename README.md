@@ -7,7 +7,7 @@
 </p>
 <p align="center"></p>
 
-## This is a simple Blog App built using React.js w and styled using Tailwind CSS.
+## This is a simple Courses App built using React.js w and styled using reactStrap.
 
 ### You can view it here: https://simple-blog-app-blond.vercel.app/
 
@@ -20,7 +20,7 @@
 
 ## 🏗️ To build it
 
-1. Clone this repo by running `git clone https://github.com/eman275/to-do-App`.
+1. Clone this repo by running `git clone https://github.com/eman275/simple-course-website`.
 2. git help docs could help you `https://git-scm.com/docs/git-help` ,
 3. `cd` into the `blog-app` folder and run `npm i` or `yarn`.
 4. Run `npm start` OR `yarn start` to start the development server.
@@ -30,7 +30,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/eman275/simple-blog-app/master/README.md).
+You can find the most recent version of this guide [here](https://github.com/eman275/simple-course-website/README.md).
 
 ## Table of Contents
 
