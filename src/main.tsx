@@ -13,7 +13,7 @@ import "sweetalert2/src/sweetalert2.scss";
 /***
  * Own styles
  */
-import "./assets/styles/app.scss";
+import "./styles/style.scss";
 
 import Layout from "./index.tsx";
 
